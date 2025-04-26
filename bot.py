@@ -5,7 +5,7 @@ import random
 import os
 
 # Load token from environment variable or you can directly paste your token
-TOKEN = os.getenv("TOKEN")  # <- For Railway Hosting
+TOKEN = os.getenv({TOKEN})  # <- For Railway Hosting
 #TOKEN = 'TOKEN'  # <- If you are running locally, uncomment this and paste your token here
 
 # Set Intents
