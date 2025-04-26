@@ -5,8 +5,8 @@ import random
 import os
 
 # Load token from environment variable or you can directly paste your token
-TOKEN = os.getenv("TOKEN")  # <- For Railway Hosting
-# TOKEN = 'MTM2NTMxNDA4MzMzMDQ1NzYwMA.GNve29.Oz8UqHu-yd_oyzgq41ZsZZMDQ5Svgq7cOtGZdQ'  # <- If you are running locally, uncomment this and paste your token here
+#TOKEN = os.getenv("TOKEN")  # <- For Railway Hosting
+TOKEN = 'TOKEN'  # <- If you are running locally, uncomment this and paste your token here
 
 # Set Intents
 intents = discord.Intents.default()
